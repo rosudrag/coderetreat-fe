@@ -14,7 +14,7 @@ Every cell interacts with its eight neighbors, which are the cells that are dire
 
 The initial pattern constitutes the **seed** of the system.
 
-The first generation is created by applying the above rules simultaneously to every cell in the seed?births and deaths happen simultaneously, and the discrete moment at which this happens is sometimes called a **tick** (in other words, each generation is a _pure function of the one before_). The rules continue to be applied repeatedly to create further generations.
+The first generation is created by applying the above rules simultaneously to every cell in the seed, births and deaths happen simultaneously, and the discrete moment at which this happens is sometimes called a **tick** (in other words, each generation is a _pure function of the one before_). The rules continue to be applied repeatedly to create further generations.
 
 ## Problem
 
