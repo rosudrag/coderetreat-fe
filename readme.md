@@ -5,3 +5,10 @@ To do after cloning:
 * npm test
 
 You should have failing test and ready to start on one of the problems.
+
+General rules to follow when doing the exercises:
+
+* Runs all the tests.
+* Maximizes Cohesion
+* Minimizes Coupling
+* Says everything Once And Only Once.
