@@ -10,10 +10,11 @@
     "babel-core": "^6.24.1",
     "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.4.0",
+    "babel-register": "^6.24.1",
     "mocha": "^3.3.0"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --watch",
+    "test": "mocha --compilers js:babel-core/register --require babel-polyfill --watch",
     "build": "babel src -d dist --source-maps"
   },
   "repository": {
