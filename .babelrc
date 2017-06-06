@@ -1,4 +1,21 @@
 {
-  "presets": ["env"],
-  "retainLines": true
+  "plugins": [
+    "transform-class-properties",
+    "syntax-decorators",
+    "transform-decorators-legacy"
+  ],
+  "presets": [
+    "env",
+    ["es2015", { "modules": false }],
+    "react",
+    "stage-0"
+  ],
+  "retainLines": true,
+  "env": {
+    "development": {
+      "presets": [
+        "react-hmre"
+      ]
+    }
+  }
 }

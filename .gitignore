@@ -35,3 +35,10 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+.DS_STORE
+node_modules
+build
+.module-cache
+*.log*
+_nogit
