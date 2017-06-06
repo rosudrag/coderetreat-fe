@@ -10,12 +10,5 @@
     "react",
     "stage-0"
   ],
-  "retainLines": true,
-  "env": {
-    "development": {
-      "presets": [
-        "react-hmre"
-      ]
-    }
-  }
+  "retainLines": true
 }
