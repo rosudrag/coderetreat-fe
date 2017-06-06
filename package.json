@@ -65,10 +65,9 @@
     "webpack-dev-server": "^2.2.1"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-register --watch",
-    "tddtest": "mocha --require test/setup.js --compilers js:babel-core/register --compilers jsx:babel-register --watch test/**/*.spec.js",
-    "start": "webpack-dev-server",
-    "dev": "webpack-dashboard -t 'Marvin' -- webpack-dev-server",
+    "test": "mocha --require test/setup.js --compilers js:babel-core/register --compilers jsx:babel-register --watch test/**/*.spec.js",
+    "prod": "webpack-dev-server",
+    "start": "webpack-dashboard -t 'Marvin' -- webpack-dev-server",
     "build": "rm -rf ./build && NODE_ENV=\"production\" webpack"
   },
   "repository": {
