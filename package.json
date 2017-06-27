@@ -66,8 +66,8 @@
   },
   "scripts": {
     "test": "mocha --require test/setup.js --compilers js:babel-core/register --compilers jsx:babel-register --watch test/**/*.spec.js",
-    "prod": "webpack-dev-server",
-    "start": "webpack-dashboard -t 'Marvin' -- webpack-dev-server",
+    "start": "webpack-dev-server",
+    "dashboard": "webpack-dashboard -t 'Marvin' -- webpack-dev-server",
     "build": "rm -rf ./build && NODE_ENV=\"production\" webpack"
   },
   "repository": {
